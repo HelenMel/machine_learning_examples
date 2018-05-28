@@ -2,8 +2,7 @@ import gym
 import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt
-from gym import wrappers
-from mountain_car_q_learning import plot_running_avg, StateTransformer
+from mountain_car_q_learning import StateTransformer
 
 
 # This is almost the same layer from policy gradient
